@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: httptest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "b:\temp\RSP61C7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/httptest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ    /c 
+"D:\my\centennial\viatual printer\vc60\httptest\httptest.cpp"
+]
+Creating command line "cl.exe @b:\temp\RSP61C7.tmp" 
+Creating temporary file "b:\temp\RSP61C8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/httptest.pdb" /debug /machine:I386 /out:"Debug/httptest.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\httptest.obj"
+".\Debug\httptest.res"
+".\Debug\HttpMgr.obj"
+]
+Creating command line "link.exe @b:\temp\RSP61C8.tmp"
+<h3>Output Window</h3>
+Compiling...
+httptest.cpp
+Linking...
+httptest.obj : error LNK2001: unresolved external symbol "public: class CString __thiscall HttpManager::GetData(int,class CString,class CString,class CString,class CString,void *,unsigned long,class CString &,class CString &)" (?GetData@HttpManager@@QAE?AVCString@@HV2@000PAXKAAV2@2@Z)
+Debug/httptest.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+httptest.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

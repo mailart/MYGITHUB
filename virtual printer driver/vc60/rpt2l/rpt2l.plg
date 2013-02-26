@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rpt2l - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/rpt2l.res" /d "NDEBUG" /d "_AFXDLL" "D:\my\centennial\viatual printer\vc60\rpt2l\rpt2l.rc"" 
+Creating temporary file "b:\temp\RSPF3CE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/rpt2l.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\my\centennial\viatual printer\vc60\rpt2l\HttpManager.cpp"
+"D:\my\centennial\viatual printer\vc60\rpt2l\rpt2l.cpp"
+"D:\my\centennial\viatual printer\vc60\rpt2l\rpt2lDlg.cpp"
+]
+Creating command line "cl.exe @b:\temp\RSPF3CE.tmp" 
+Creating temporary file "b:\temp\RSPF3CF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/rpt2l.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\my\centennial\viatual printer\vc60\rpt2l\StdAfx.cpp"
+]
+Creating command line "cl.exe @b:\temp\RSPF3CF.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/rpt2l.pdb" /machine:I386 /out:"Release/rpt2l.exe"  ".\Release\HttpManager.obj" ".\Release\rpt2l.obj" ".\Release\rpt2lDlg.obj" ".\Release\StdAfx.obj" ".\Release\rpt2l.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HttpManager.cpp
+D:\my\centennial\viatual printer\vc60\rpt2l\HttpManager.cpp(160) : warning C4305: '=' : truncation from 'const int' to 'char'
+D:\my\centennial\viatual printer\vc60\rpt2l\HttpManager.cpp(160) : warning C4309: '=' : truncation of constant value
+D:\my\centennial\viatual printer\vc60\rpt2l\HttpManager.cpp(338) : warning C4305: '=' : truncation from 'const int' to 'char'
+D:\my\centennial\viatual printer\vc60\rpt2l\HttpManager.cpp(338) : warning C4309: '=' : truncation of constant value
+D:\my\centennial\viatual printer\vc60\rpt2l\HttpManager.cpp(402) : warning C4800: 'char *' : forcing value to bool 'true' or 'false' (performance warning)
+rpt2l.cpp
+rpt2lDlg.cpp
+Generating Code...
+D:\my\centennial\viatual printer\vc60\rpt2l\rpt2lDlg.cpp(251) : warning C4715: 'GhostPsToPdfs' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+rpt2l.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

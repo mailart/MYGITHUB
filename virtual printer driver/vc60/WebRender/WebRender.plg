@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WebRender - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "b:\temp\RSP8355.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WebRender.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\my\centennial\viatual printer\vc60\WebRender\WebPrintMgr.cpp"
+]
+Creating command line "cl.exe @b:\temp\RSP8355.tmp" 
+Creating temporary file "b:\temp\RSP8356.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/WebRender.pdb" /debug /machine:I386 /out:"Debug/WebRender.exe" /pdbtype:sept 
+".\Debug\Globals.obj"
+".\Debug\HttpManager.obj"
+".\Debug\RedeemDlg.obj"
+".\Debug\StatusBar.obj"
+".\Debug\StdAfx.obj"
+".\Debug\WebPrintMgr.obj"
+".\Debug\WebRender.obj"
+".\Debug\WebRenderDlg.obj"
+".\Debug\WebRender.res"
+]
+Creating command line "link.exe @b:\temp\RSP8356.tmp"
+<h3>Output Window</h3>
+Compiling...
+WebPrintMgr.cpp
+D:\my\centennial\viatual printer\vc60\WebRender\WebPrintMgr.cpp(164) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+WebRender.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

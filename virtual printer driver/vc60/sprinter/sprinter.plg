@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sprinter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "b:\temp\RSP7103.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/sprinter.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\my\centennial\viatual printer\vc60\sprinter\PrintMgr.cpp"
+]
+Creating command line "cl.exe @b:\temp\RSP7103.tmp" 
+Creating temporary file "b:\temp\RSP7104.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/sprinter.pdb" /debug /machine:I386 /out:"Debug/sprinter.exe" /pdbtype:sept 
+".\Debug\PrintMgr.obj"
+".\Debug\sprinter.obj"
+".\Debug\StdAfx.obj"
+".\Debug\sprinter.res"
+]
+Creating command line "link.exe @b:\temp\RSP7104.tmp"
+<h3>Output Window</h3>
+Compiling...
+PrintMgr.cpp
+D:\my\centennial\viatual printer\vc60\sprinter\PrintMgr.cpp(52) : warning C4091: 'typedef ' : ignored on left of 'struct reconfig_s' when no variable is declared
+D:\my\centennial\viatual printer\vc60\sprinter\PrintMgr.cpp(327) : warning C4002: too many actual parameters for macro '_T'
+D:\my\centennial\viatual printer\vc60\sprinter\PrintMgr.cpp(360) : warning C4101: 'ret' : unreferenced local variable
+D:\my\centennial\viatual printer\vc60\sprinter\PrintMgr.cpp(412) : warning C4101: 'returned' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+sprinter.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

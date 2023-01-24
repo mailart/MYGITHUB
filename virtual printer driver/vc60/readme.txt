@@ -1,3 +1,3 @@
-webrender webprint接口
-sprinter 虚拟打印机
-rpt2l	pdf接口
+webrender webprint dialog based ui
+sprinter print driver
+rpt2l	printer format to pdf
